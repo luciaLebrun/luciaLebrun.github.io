@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './App.css';
 import ASSETS from './assets';
 import { Buttons } from './components';
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <div className='container'>
         <div className="Menu">
+          <p className='p-header'>Bonjour, je suis<span className='name'>Lucia Lebrun.</span></p>
           <Buttons 
               text={"Me découvrir"}
               link={"/me"}
@@ -17,12 +19,16 @@ function App() {
                 text={"Mes projets"}
                 link={"/projects"}
           />
-          <Buttons 
-                text={"Télécharger mon CV"}
-                link={"/data/CV-Lucia_LEBRUN.pdf"}
-          />
+
+          <div className='container_button'>
+            <a className='buttons' href="/files/CV-Lucia_LEBRUN.pdf" download>
+                Télécharger mon CV
+            </a>
+          </div>
         </div>
+        
       </div>
+      <img src={ASSETS.mePicture} className="picturePixel"></img>
       <Footer />
     </div>
 

@@ -4,7 +4,7 @@ import './project.css';
 const Project = ({titre, git, desc, tags}) => {
 
   return (
-    <a href={git} className="link-project" target="_blank">
+    <a href={git} className="link-project" target="_blank" rel="noreferrer">
       <div className='project'>
         {tags.map(tag =>(
             <span>{tag}</span>

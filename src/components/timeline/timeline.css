@@ -1,0 +1,21 @@
+.head {
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    border-radius: 30%;
+    padding: 0.25rem;
+}
+
+.picture {
+    width: 150px;
+    height: 165px;
+    border-radius: 80px;
+}
+
+.vertical-timeline-element-date {
+    color: #fff;
+}

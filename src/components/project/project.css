@@ -1,0 +1,28 @@
+.project {
+    background-color: var(--color-text);
+    font-family: var(--font-family);
+    text-align: center;
+    padding: 1.1rem;
+    cursor: pointer;
+    border-radius: 2%;
+    box-shadow: 0 3px 0 #ffffffab;
+    color: #000;
+    margin: 1rem;
+}
+
+.link-project {
+    text-decoration: none;
+}
+
+.link-project:visited {
+    color: #000;
+}
+
+span {
+    margin: .5rem;
+    padding: .3rem;
+}
+
+.project-desc {
+    overflow-wrap: break-word;
+}

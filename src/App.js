@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import ASSETS from './assets';
+import { Buttons } from './components';
+import { Footer, Navbar } from './containers';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <div className='container'>
+        <div className="Menu">
+          <Buttons 
+              text={"Me découvrir"}
+              link={"/me"}
+          />
+          <Buttons 
+                text={"Mes projets"}
+                link={"/projects"}
+          />
+          <Buttons 
+                text={"Télécharger mon CV"}
+                link={"/data/CV-Lucia_LEBRUN.pdf"}
+          />
+        </div>
+      </div>
+      <Footer />
     </div>
+
   );
 }
 

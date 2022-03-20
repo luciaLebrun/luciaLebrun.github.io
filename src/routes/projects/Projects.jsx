@@ -21,7 +21,7 @@ const Projects = () => {
                 />
                 <Project
                     titre={"PokeFanGame"}
-                    desc={"Un petit projet qui m'a permise d'apprendre les bases de ReactJS"}
+                    desc={"Un petit projet qui m'a permis d'apprendre les bases de ReactJS"}
                     tags={["ReactJS"]}
                     git="https://github.com/luciaLebrun/PokeFanGame"
                 />

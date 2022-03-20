@@ -28,7 +28,6 @@ function App() {
         </div>
         
       </div>
-      <img src={ASSETS.mePicture} className="picturePixel"></img>
       <Footer />
     </div>
 

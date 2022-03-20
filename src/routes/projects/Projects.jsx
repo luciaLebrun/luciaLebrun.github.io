@@ -15,9 +15,9 @@ const Projects = () => {
             <div className="projects">
                 <Project
                     titre={"Porfolio"}
-                    desc={"Le projet de mon portfolio"}
+                    desc={"Le code source de mon portfolio"}
                     tags={["ReactJS"]}
-                    git="https://github.com/luciaLebrun"
+                    git="https://github.com/luciaLebrun/luciaLebrun.github.io/tree/master"
                 />
                 <Project
                     titre={"PokeFanGame"}
@@ -35,11 +35,13 @@ const Projects = () => {
                     titre={"Slayman"}
                     desc={"Premier RPG réalisé avec l'outil Godot."}
                     tags={["Godot"]}
+                    git="https://github.com/luciaLebrun/Slayman"
                 />
                 <Project
                     titre={"CorpusParser"}
                     desc={"Analyseur de corpus scientifique réalisé durant ma licence avec une équipe."}
                     tags={["Python"]}
+                    git="https://github.com/luciaLebrun/Parseur_lbgl"
                 />
 
             </div>

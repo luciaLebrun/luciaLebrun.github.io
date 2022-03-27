@@ -14,9 +14,17 @@
     text-decoration: none;
 }
 
+.project:hover {
+    background-color: #D6D6D6;
+    box-shadow: 0 3px 0 #707070;
+    color: #141414;
+}
+
 .link-project:visited {
     color: #000;
 }
+
+
 
 span {
     margin: .5rem;

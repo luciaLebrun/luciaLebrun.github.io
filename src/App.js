@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './App.css';
 import ASSETS from './assets';
 import { Buttons } from './components';
@@ -26,7 +25,7 @@ function App() {
             </a>
           </div>
         </div>
-        
+        <img src={ASSETS.meAvatar} alt="Avatar" className='avatar'/>
       </div>
       <Footer />
     </div>
